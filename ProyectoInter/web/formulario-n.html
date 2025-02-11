@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unete a NubeX</title>
+    <link rel="stylesheet" href="nubex.css">
+    <link rel="icon" type="image/x-icon" href="/web/Logotipo NubeX.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="iznav">
+            <a href="NubEX1.html">NubeX</a>
+            </div>
+            <div class="dernav">
+            
+                <a>¿Quiénes somos?</a>
+                <a href="formulario-n.html">Inicia Sesión</a>
+                <a>Servicios</a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2 class="encabezados">Unete a NubeX</h2>
+        <form action="crear_usuario.php" method="POST">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="usuario">Nombre de Usuario</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Crear Usuario">
+        </form>
+    </div>
+
+</body>
+</html>
