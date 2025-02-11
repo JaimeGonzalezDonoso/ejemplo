@@ -1,0 +1,185 @@
+
+body { 
+background-color: rgb(255, 255, 255); 
+} 
+.headnav{
+    border-radius: 9px;
+    width: 100%;
+    background-color: rgba(44, 44, 44, 0.712);
+    overflow: auto;
+    position: fixed;
+    }
+
+    .contenedorlogo{
+        float: left;
+        width: 150px;
+    }
+    .contenedorlogo img{
+        width: 150px;
+    }
+    .contenedorlogo img:hover{
+        transform: scale(1.2);
+    }
+    
+  
+   .navegador{
+    padding: 10px;
+    margin: 20px;
+    float: right;
+   }
+
+   .navegador img{
+    width: 80px;
+    border-radius: 50px;
+   }
+   .navegador a {
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white ;
+    background-color: rgba(35, 35, 35, 0.748);
+    margin: 20px;
+    float: left;
+    border-radius: 40px;
+    padding: 8px;
+   }
+   .navegador a:hover {
+    transform: scale(1.4);
+   }
+
+.contenedor {
+    background-color: black;
+}
+header{
+color: rgb(3, 0, 0); 
+background-color: rgb(255, 255, 255); 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: x-large; 
+text-align: center; 
+padding-top: 30px; 
+padding-bottom: 30px; 
+
+} 
+section {
+    padding-top: 200px; 
+    width: 90%;
+    margin:auto;
+    min-height: 1000px; 
+    background-color: rgb(255, 255, 255);
+}
+section h1{
+    text-align: center;
+}
+.imagen {
+    width: 60%;
+    margin:auto;
+}
+.imagen img {
+    width: 100%;
+    height:auto
+}
+.container {
+    text-align: center;
+}
+nav { 
+
+color: lightgray; 
+background-color: rgb(64,64,64); 
+font-family: Arial, Helvetica, sans-serif; 
+font-size:larger;
+padding-top: 5px; 
+padding-bottom:5px; 
+ 
+} 
+
+nav a{ 
+
+display: block; 
+color: rgb(240,240,240); 
+padding: 5px; 
+text-decoration: none; 
+float: left; 
+
+} 
+
+nav a:hover { 
+color: rgb(0, 0, 0); 
+background-color: rgb(240,240,240); 
+} 
+nav a.enlace-contacto{ 
+float: right;
+
+} 
+nav::after{ 
+display:block; 
+content: ""; 
+clear: both; 
+
+} 
+.fila-galeria{ 
+
+width:95%; 
+margin: auto; 
+} 
+
+.fila-galeria::after{ 
+content: ""; 
+clear: both; 
+display: table;} 
+
+.elemento-galeria 
+
+{ 
+
+box-sizing: border-box; 
+float:left; 
+width: 33%; 
+padding: 10px; 
+background-color: lightgray; 
+text-align: center; 
+color:black; 
+} 
+.imagen-galeria{ 
+
+padding: 10px; 
+} 
+.imagen-galeria img{ 
+width: 100%; 
+} 
+.descripcion-imagen 
+{ 
+padding: 10px; 
+
+} 
+
+.contenedor1 {
+    text-align: right;
+}
+
+
+.pie{ 
+
+color: rgb(0, 0, 0); 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: x-large;
+text-align: center; 
+padding-top: 30px; 
+padding-bottom: 30px; 
+
+} 
+.hola {
+overflow: auto;
+color: rgb(0, 0, 0); 
+
+padding-top: 30px; 
+padding-bottom: 30px;
+}
+#mapa {
+    width:30%;
+    float: right;
+}
+.article {
+    float: left;
+    width: 50%;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;  
+}

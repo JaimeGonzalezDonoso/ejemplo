@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-image: url(../secudarios/Imagenesformulario/Tigers_Black_background_White_Glance_555581_1920x1080.jpg);
+}
+.headnav{
+border-radius: 9px;
+width: 100%;
+background-color: rgba(44, 44, 44, 0.712);
+overflow: auto;
+}
+
+.contenedorlogo{
+float: left;
+width: 150px;
+}
+.contenedorlogo img{
+width: 150px;
+}
+.contenedorlogo img:hover{
+transform: scale(1.2);
+}
+
+
+.navegador{
+padding: 10px;
+margin: 20px;
+float: right;
+}
+
+.navegador img{
+width: 80px;
+border-radius: 50px;
+}
+.navegador a {
+text-decoration: none;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: white ;
+background-color: rgba(35, 35, 35, 0.748);
+margin: 20px;
+float: left;
+border-radius: 40px;
+padding: 8px;
+}
+.navegador a:hover {
+transform: scale(1.4);
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    
+    margin: 80px auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+.headnav{
+border-radius: 9px;
+width: 100%;
+background-color: rgba(44, 44, 44, 0.712);
+overflow: auto;
+position: fixed;
+}
+.contenedorlogo{
+    float: left;
+    width: 150px;
+}
+.contenedorlogo img{
+    width: 150px;
+}
+.contenedorlogo img:hover{
+    transform: scale(1.2);
+}
+
+
+.navegador{
+
+margin: 20px;
+float: right;
+}
+
+.navegador img{
+width: 80px;
+border-radius: 50px;
+}
+.navegador a {
+text-align: center;
+text-decoration: none;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: white ;
+background-color: rgba(35, 35, 35, 0.748);
+margin: 20px;
+float: left;
+border-radius: 40px;
+padding: 8px;
+}
+
+.navegador a:hover {
+transform: scale(1.4);
+}
+.imagenoso{
+width: 100%;
+}
+.imagenoso img{
+    width: 100%;
+}
+    
+.cambio{
+background-color: rgba(70, 156, 108, 0.181);
+width: 100%;
+margin-top: 20px;
+overflow: auto;
+}
+.cabecera{
+text-align: center;
+font-size: xxx-large;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.oso{
+float: left;
+width: 50%;
+margin-left: 25%;
+margin-right: 25%;
+margin-bottom: 20px;
+}
+.texto2{
+
+margin-top: 80px;
+float: left;
+width: 45%;
+font-size: x-large;
+overflow: auto;
+margin-left: 20px;
+}
+.imagenmapa{
+margin-top: 80px;
+margin: 20px;
+float: right;
+width: 50%;
+
+
+}
+.comparativa{
+background-color: rgba(70, 156, 108, 0.181);
+width: 100%;
+margin-top: 20px;
+overflow: auto;
+text-align: center;
+font-size: x-large;
+}
+.comparativario{
+width: 40%;
+height: 600px;
+
+}
+.animalespeligro{
+text-align: center;
+font-size: x-large;
+width: 100%;
+margin-top: 20px;
+float: left;
+}
+.animalespeligro div{
+font-size: xx-large;
+text-align: center;
+width: 25%;
+float: left;
+
+}
+.animalespeligro img{
+text-align: center;
+width: 300px;
+height: 300px;
+border-radius: 200px;
+}

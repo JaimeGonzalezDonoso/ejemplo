@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unete a FaunaConect</title>
+    <link rel="stylesheet" href="../css/Formulario.css">
+    <link rel="icon" type="image/x-icon" href="/imagenesprincipal/faunatec.png">
+</head>
+<body>
+    <nav class="headnav">
+        <div class="contenedorlogo">
+            <a href="../faunaconect.html">
+            <img class="logo" src="../imagenesprincipal/faunatec.png" alt="Logo de faunaconect">
+            </a>
+        </div>
+        
+        <div class="navegador">
+            <a href="CambioClimático.html"><h2>Cambio Climático</h2></a>
+            <a href="secundarios/Formulario.html"><img src="../imagenesprincipal/12123009.png" alt="inicio de sesion"></a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h2>Unete a FaunaConect</h2>
+        <form action="crear_usuario.php" method="POST">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="usuario">Nombre de Usuario</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Crear Usuario">
+        </form>
+    </div>
+
+</body>
+</html>

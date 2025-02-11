@@ -1,0 +1,200 @@
+.headnav{
+    border-radius: 9px;
+    width: 100%;
+    background-color: rgba(44, 44, 44, 0.712);
+    overflow: auto;
+    position: fixed;
+    }
+
+    .contenedorlogo{
+        float: left;
+        width: 150px;
+    }
+    .contenedorlogo img{
+        width: 150px;
+    }
+    .contenedorlogo img:hover{
+        transform: scale(1.2);
+    }
+    
+  
+   .navegador{
+    padding: 10px;
+    margin: 20px;
+    float: right;
+   }
+
+   .navegador img{
+    width: 80px;
+    border-radius: 50px;
+   }
+   .navegador a {
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white ;
+    background-color: rgba(35, 35, 35, 0.748);
+    margin: 20px;
+    float: left;
+    border-radius: 40px;
+    padding: 8px;
+   }
+   .navegador a:hover {
+    transform: scale(1.4);
+   }
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+.img {
+    margin: left;
+    width: 50%;
+    
+
+    
+}
+
+
+a {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-right: 5px;
+    padding-top: 0%;
+    
+}
+
+.texto {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    padding-top: 0%;
+
+}
+
+.texto2{
+     padding-left: 2%;
+     text-align: center;
+    
+
+}
+
+.texto3{
+    text-align: center;
+     padding-right: 0%;
+     padding-left: 0%;
+     color: rgb(68, 68, 68);
+    
+}
+
+.texto4 {
+    text-align: center;
+     padding-right: 0%;
+     padding-top: 0%;
+     color: rgb(0, 0, 0);
+
+}
+
+.texto5 {
+    text-align: center;
+     padding-right: 0%;
+     padding-top: 0%;
+     color: rgb(68, 68, 68);
+}
+
+.texto7 {
+    color: rgb(68, 68, 68);
+}
+
+.imagen {
+    width: 50%;
+    padding: 10px;
+    float: left;
+    padding-top: 1%;
+
+
+    
+}
+
+.imagen img {
+    width: 100%;
+
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    margin: auto;
+    width: 75%;
+    height: 2000px;
+    
+}
+
+.imagen1 {
+    text-align: left;
+    padding-left: 3%;
+    float: center;
+}
+
+.imagen2 {
+    padding-left: 2%;
+}
+
+.linea {
+    text-align: center;
+    padding: 2%;
+    
+
+}
+
+#contenedor1 {
+    float: left;
+    text-align: center;
+    padding-left: 4%;
+    
+    
+}       
+
+#contenedor2 {
+    float: left;
+    text-align: center;
+    padding-left: 4%;
+}
+
+#contenedor3 {
+    float: right;
+    text-align: center;
+    padding-right: 4%;
+}
+
+#contenedor4 {
+    float: center;
+    text-align: center;
+    padding-top: 50%;
+    padding-right: 4%;
+}
+
+footer {
+    padding-top: 5%;
+    padding-right: 3%;
+    text-align: center;
+    color: rgb(122, 122, 122);
+    
+}
+
+.punti {
+    background-color: black;
+
+}
+
+.punt2 {
+    background-color: black;
+
+}
