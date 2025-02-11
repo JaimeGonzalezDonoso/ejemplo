@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+<channel>
+
+    <title>Jaime González Donoso</title>
+    <link>https:/jaimegonzalezdonoso.github.io/ejemplo/otro.rss.xml</link>
+    <description>Páginas sobre video juegos y animales</description>
+
+    <item>
+        <title>Galería Fallout</title>
+        <link>https:/jaimegonzalezdonoso.github.io/ejemplo/falloutNV.html</link>
+        <description>Esta es una galería sobre el universo fallout 
+        en ella podemos encontrar diversas imagenes, videos de los trailers, música y radios de los juegos</description>
+    </item>  
+     <item>
+        <title>Página animales</title>
+        <link>https:/jaimegonzalezdonoso.github.io/ejemplo/Paginaanimales/faunaconect.html</link>
+        <description>Esta es una página sobre una asociación que informa y proteje ciertos animales,
+        en ella podemos ver diversas páginas sobre animales en peligro de extinción...etc</description>
+    </item> 
+     <item>
+        <title>Proyecto NubeX</title>
+        <link>https:/jaimegonzalezdonoso.github.io/ejemplo/ProyectoInter/web/NubEX1.html</link>
+        <description>Este es un inento de página web sobre el proyecto intermodular con las ideas sobre
+        los pagos de diversos servicios de nuestro oroyecto de cloud gaming</description>
+    </item>   
+
+</channel>
+</rss>
